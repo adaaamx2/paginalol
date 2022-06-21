@@ -1,63 +1,27 @@
-<html><head>
-<title>
-La meva primera pàgina web
-</title>
-<p>
-<center> <h1> Hola! Que tal? </h1> </center>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Ayuda" content="width=device-width, initial-scale=1.0">
+    <title>Ayuda</title>
 </head>
-<body bgcolor="#5E24A4">
-Hola mon, aquesta es la meva primera pagina web i us explicare que es l'internet. Una página web es un documento accesible desde cualquier navegador con acceso a internet, y que puede incluir audio, vídeo, texto y sus diferentes combinaciones. Las<b> primeras </b>webs surgieron en el año 1992.
-<p>
-Conjunto de información que se encuentra en una dirección determinada de internet
-</p>
-<center> <FONT FACE="times new roman" SIZE=5 COLOR="white"> quieres comprar un dinosaurio? </FONT> </center>
-</p>
-<center> <img src="https://raw.githubusercontent.com/adaaamx2/paginalol/gh-pages/dinasourio.jpeg" width="300" height="100" /> </center>
-</p>
-<div id="smart-button-container">
-      <div style="text-align: center;">
-        <div id="paypal-button-container"></div>
-      </div>
-    </div>
-  <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-  <script>
-    function initPayPalButton() {
-      paypal.Buttons({
-        style: {
-          shape: 'rect',
-          color: 'gold',
-          layout: 'vertical',
-          label: 'paypal',
-          
-        },
 
-        createOrder: function(data, actions) {
-          return actions.order.create({
-            purchase_units: [{"description":"prueba lol","amount":{"currency_code":"USD","value":10}}]
-          });
-        },
+<body>
+    <h1>
+        <center>Como borrar apps en tu ordenador nokia 2</center>
+    </h1>
+    1- Dale al botón de windows y busca aplicaciones<br><br>
+    2-Dale clic a <b>Añadir o quitar programas</b><br><br>
+    3- Buscas esas apps y le das a desinstalar, easy
+    <br>
+    1-<img src="https://github.com/adaaamx2/paginalol/blob/main/aplicaciones.png?raw=true">
+    2-<img src="https://github.com/adaaamx2/paginalol/blob/main/agr.png?raw=true">
+    3-<img src="https://github.com/adaaamx2/paginalol/blob/main/roblosa.png?raw=true">
+      <br>
+      <center>
+            Adam ©️ 2022
+</body>
 
-        onApprove: function(data, actions) {
-          return actions.order.capture().then(function(orderData) {
-            
-            // Full available details
-            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-
-            // Show a success message within this page, e.g.
-            const element = document.getElementById('paypal-button-container');
-            element.innerHTML = '';
-            element.innerHTML = '<h3>Thank you for your payment!</h3>';
-
-            // Or go to another URL:  actions.redirect('thank_you.html');
-            
-          });
-        },
-
-        onError: function(err) {
-          console.log(err);
-        }
-      }).render('#paypal-button-container');
-    }
-    initPayPalButton();
-  </script>
-</body></html>
+</html>
